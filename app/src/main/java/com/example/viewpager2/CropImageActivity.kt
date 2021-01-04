@@ -42,7 +42,6 @@ class CropImageActivity: AppCompatActivity() {
 //        var image: Int ?= null
 //        var context : AccessControlContext? = getContext()
 
-
         if(bundle != null){
             var image = intent.getIntExtra(ImageDetailAdapter.crop,0)
             Log.i("aaaa","oncreateimage"+image.toString())
